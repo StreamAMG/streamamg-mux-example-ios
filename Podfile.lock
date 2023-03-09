@@ -1,0 +1,90 @@
+PODS:
+  - GoogleAds-IMA-iOS-SDK (3.18.1)
+  - KalturaNetKit (1.5.1):
+    - KalturaNetKit/Core (= 1.5.1)
+  - KalturaNetKit/Core (1.5.1):
+    - SwiftyJSON (= 5.0.0)
+  - Mux-Stats-Core (4.4.0)
+  - Mux-Stats-Kaltura (2.0.0):
+    - Mux-Stats-Core (~> 4.4)
+    - PlayKit (~> 3.21)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - PlayKit (3.27.0):
+    - PlayKit/Core (= 3.27.0)
+  - PlayKit/AnalyticsCommon (3.27.0):
+    - PlayKit/Core
+  - PlayKit/Core (3.27.0):
+    - KalturaNetKit (~> 1.5.1)
+    - PlayKitUtils (~> 0.5)
+    - SwiftyJSON (= 5.0.0)
+    - XCGLogger (= 7.0.0)
+  - PlayKit_IMA (1.14.0):
+    - GoogleAds-IMA-iOS-SDK (= 3.18.1)
+    - GoogleAds-IMA-tvOS-SDK (= 4.6.1)
+    - PlayKit (~> 3.22)
+  - PlayKitProviders (1.18.0):
+    - KalturaNetKit (~> 1.5)
+    - PlayKit/AnalyticsCommon (~> 3.27)
+    - PlayKitUtils (~> 0.5)
+    - SwiftyXMLParser (= 5.0.0)
+  - PlayKitUtils (0.5.1)
+  - PlayKitYoubora (1.15.0):
+    - PlayKit/AnalyticsCommon (~> 3.27)
+    - YouboraLib (= 6.6.25)
+  - StreamAMGSDK/PlayKit (1.2.0):
+    - PlayKit (= 3.27.0)
+    - PlayKit_IMA (= 1.14.0)
+    - PlayKitProviders (= 1.18.0)
+    - PlayKitYoubora (= 1.15.0)
+  - SwiftyJSON (5.0.0)
+  - SwiftyXMLParser (5.0.0)
+  - XCGLogger (7.0.0):
+    - XCGLogger/Core (= 7.0.0)
+  - XCGLogger/Core (7.0.0):
+    - ObjcExceptionBridging
+  - YouboraLib (6.6.25)
+
+DEPENDENCIES:
+  - Mux-Stats-Kaltura
+  - StreamAMGSDK/PlayKit
+
+SPEC REPOS:
+  trunk:
+    - GoogleAds-IMA-iOS-SDK
+    - KalturaNetKit
+    - Mux-Stats-Core
+    - Mux-Stats-Kaltura
+    - ObjcExceptionBridging
+    - PlayKit
+    - PlayKit_IMA
+    - PlayKitProviders
+    - PlayKitUtils
+    - PlayKitYoubora
+    - StreamAMGSDK
+    - SwiftyJSON
+    - SwiftyXMLParser
+    - XCGLogger
+    - YouboraLib
+
+SPEC CHECKSUMS:
+  GoogleAds-IMA-iOS-SDK: 54941bbcc0fc7408ad5ee13e4347343604927eea
+  KalturaNetKit: 8774fdc2e73d3d013c3df88aa49376dd922d3606
+  Mux-Stats-Core: 27b28bc277a891190753869600c5e01e2188125c
+  Mux-Stats-Kaltura: 7b1230ca1396ebf86e71686de3ff8e8d99219738
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  PlayKit: fa104ddf19b0894f0c395d0837e1c8f0650bec8e
+  PlayKit_IMA: b7a37ba5474f3397f9c0880e7105fed72c21bc02
+  PlayKitProviders: 5dc0b4abd2c278b62146c6f9b51cdb2746bf3d17
+  PlayKitUtils: 4a11aef6488e778d10b774702ba79dd0cfa0ef11
+  PlayKitYoubora: 2784003d0e0934ea53a0bbf34a12cf7a928bd63d
+  StreamAMGSDK: ee46eb65bb0489cc4976b693f8955a4eeba57f04
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  SwiftyXMLParser: 5ebb8793192f403fa8cc691045143906122a7a75
+  XCGLogger: 0434f15e3909cdc450bb63faf638b8792ab782ab
+  YouboraLib: 6ee57250e24a2f88a12c5685f5b57ce641fea851
+
+PODFILE CHECKSUM: b389d6919ee4e6948881802ab68d32bdb68086e7
+
+COCOAPODS: 1.11.3
